@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-app = Flask(__name__, template_folder="template")
+app = Flask(__name__)
 
 @app.route("/")
 def index():
@@ -12,6 +12,18 @@ def jobbrowse():
 @app.route("/jobpost")
 def jobpost():
     return render_template("job-post.html")
+
+@app.route("/jobview")
+def jobview():
+    return render_template("job-view.html")
+
+@app.route("/login")
+def login():
+    return render_template("login.html")
+
+@app.route("/profile")
+def profile():
+    return render_template("profile.html")
 
 
 

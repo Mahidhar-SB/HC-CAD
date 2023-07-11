@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Board - Job Listings</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/styles.css')}}">
 </head>
 <body>
-    <div class="container">
+    <div class="container">  
     <header>
         <div class="navbar">
             <h1 class="logo">Job Board</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="job-list.html">Browse Jobs</a></li>
-                    <li><a href="job-post.html">Post a Job</a></li>
-                    <li><a href="login.html">Login</a></li> 
+                    <li><a href="/">Home</a></li>
+                    <li><a href="{{url_for('jobbrowse')}}">Browse Jobs</a></li>
+                    <li><a href="/jobpost">Post a Job</a></li>
+                    <li><a href="/login">Login</a></li>
                 </ul>
             </nav>
         </div>
@@ -38,56 +38,56 @@
                     <p>Company: Company A</p>
                     <p>Location: City A</p>
                     <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="job-view.html" class="btn">Apply</a>
+                    <a href="/jobview" class="btn">Apply</a>
                 </li>
                 <li>
                     <h3>Job Title 2</h3>
                     <p>Company: Company B</p>
                     <p>Location: City B</p>
                     <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="job-view.html" class="btn">Apply</a>
+                    <a href="/jobview" class="btn">Apply</a>
                 </li>
                 <li>
                     <h3>Job Title 3</h3>
                     <p>Company: Company C</p>
                     <p>Location: City C</p>
                     <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="job-view.html" class="btn">Apply</a>
+                    <a href="/jobview" class="btn">Apply</a>
                 </li>
                 <li>
                     <h3>Job Title 4</h3>
                     <p>Company: Company D</p>
                     <p>Location: City D</p>
                     <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="job-view.html" class="btn">Apply</a>
+                    <a href="/jobview" class="btn">Apply</a>
                 </li>
                 <li>
                     <h3>Job Title 5</h3>
                     <p>Company: Company E</p>
                     <p>Location: City E</p>
                     <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="job-view.html" class="btn">Apply</a>
+                    <a href="/jobview" class="btn">Apply</a>
                 </li>
                 <li>
                     <h3>Job Title 6</h3>
                     <p>Company: Company F</p>
                     <p>Location: City F</p>
                     <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="job-view.html" class="btn">Apply</a>
+                    <a href="/jobview" class="btn">Apply</a>
                 </li>
                 <li>
                     <h3>Job Title 7</h3>
                     <p>Company: Company G</p>
                     <p>Location: City G</p>
                     <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="job-view.html" class="btn">Apply</a>
+                    <a href="/jobview" class="btn">Apply</a>
                 </li>
                 <li>
                     <h3>Job Title 8</h3>
                     <p>Company: Company H</p>
                     <p>Location: City H</p>
                     <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="job-view.html" class="btn">Apply</a>
+                    <a href="/jobview" class="btn">Apply</a>
                 </li>
             </ul>
         </section>
