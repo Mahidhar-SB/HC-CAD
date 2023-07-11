@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Board - Login</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/styles.css')}}">
 </head>
 <body>
     <div class="container">
@@ -26,20 +26,26 @@
             <section class="forms-section">
                 <div class="form-container-login">
                     <h2>Login</h2>
-                    <form action="#" method="POST">
+                    <form action="#" method="post">
                         <input type="email" name="email" placeholder="Email" required>
                         <input type="password" name="password" placeholder="Password" required>
                         <button type="submit" class="btn">Login</button>
                     </form>
                     <p>Don't have an account? <b> Register</b></p>
                 </div>
+
                 <div class="form-container-register">
                     <h2>Register</h2>
-                    <form action="#" method="POST">
+                    <form action="/register" method="post">
                         <input type="text" name="name" placeholder="Name" required>
                         <input type="email" name="email" placeholder="Email" required>
                         <input type="password" name="password" placeholder="Password" required>
-                        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+                        <label for="role">Select you Role</label>
+                        <select name="role" id="role">
+                            <option value="1">Job Seeker</option>
+                            <option value="2">Recuiter</option>
+                        </select>
+
                         <button type="submit" class="btn">Register</button>
                     </form>
                     <p>Already have an account?  <b> Login </b></p>
