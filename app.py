@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, session
 import ibm_db
 app = Flask(__name__)
 
-conn = conn=ibm_db.connect("DATABASE=<database>;HOSTNAME=<hostname>;PORT=<port>;UID=<username>;PWD=<password>;SECURITY=SSL;SSLCertificate=DigiCertGlobalRootCA.crt",'','')
+conn = ibm_db.connect("database=bludb;hostname=2f3279a5-73d1-4859-88f0-a6c3e6b4b907.c3n41cmd0nqnrk39u98g.databases.appdomain.cloud;port=30756;uid=vts47207;pwd=g4O8mWodzytk1wMD;security=SSL;sslcertificate=DigiCertGlobalRootCA.crt"," "," ")
 print(conn)
 connState = ibm_db.active(conn)
 print(connState)
