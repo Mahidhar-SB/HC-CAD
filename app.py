@@ -2,11 +2,11 @@ from flask import Flask, render_template, request, session
 import ibm_db
 app = Flask(__name__)
 
-conn = conn=ibm_db.connect("DATABASE=bludb;HOSTNAME=2f3279a5-73d1-4859-88f0-a6c3e6b4b907.c3n41cmd0nqnrk39u98g.databases.appdomain.cloud;PORT=30756;UID=vts47207;PWD=g4O8mWodzytk1wMD;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt",'','')
+conn = conn=ibm_db.connect("DATABASE=<database>;HOSTNAME=<hostname>;PORT=<port>;UID=<username>;PWD=<password>;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt",'','')
 print(conn)
 connState = ibm_db.active(conn)
 print(connState)
-app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
+app.secret_key = b'_5#y2L"F4Q8z\n\xec]/' #here you can give any random bytes
 
 
 @app.route("/")
