@@ -1,22 +1,23 @@
 <h2>Useful Links</h2>
 <ul>
-  <li><a href="https://cloud.ibm.com/login" target="_blank"><b>IBM Cloud</b></a>: Official website for IBM Cloud.</li>
-  <li><a href="https://youtu.be/4It0D0Nw00c" target="_blank"><b>DevOps Tools Video</b></a>: A suggested video to learn more about DevOps tools.</li>
+  <li><a href="https://cloud.ibm.com/login" target="_blank"><strong>IBM Cloud</strong></a>: Official website for IBM Cloud.</li>
+  <li><a href="https://youtu.be/4It0D0Nw00c" target="_blank"><strong>DevOps Tools Video</strong></a>: A suggested video to learn more about DevOps tools.</li>
 </ul>
 
 <h2>Flask</h2>
 <ul>
-  <li><a href="https://flask.palletsprojects.com/en/2.3.x/quickstart/#a-minimal-application" target="_blank"><b>Official Documentation</b></a>: The official documentation for Flask.</li>
-  <li><a href="https://www.tutorialspoint.com/flask/index.htm" target="_blank"><b>Tutorials Point</b></a>: Tutorials Point provides Flask tutorials with examples.</li>
+  <li><a href="https://flask.palletsprojects.com/en/2.3.x/quickstart/#a-minimal-application" target="_blank"><strong>Official Documentation</strong></a>: The official documentation for Flask.</li>
+  <li><a href="https://www.tutorialspoint.com/flask/index.htm" target="_blank"><strong>Tutorials Point</strong></a>: Tutorials Point provides Flask tutorials with examples.</li>
 </ul>
 
 <h2>IBM Db2</h2>
 <ul>
-  <li><a href="https://github.com/ibmdb/python-ibmdb" target="_blank"><b>Official GitHub Repo of IBM DB2</b></a>: The official GitHub Repository of IBM DB2, here you can few examples and install instructions.</li>
-  <li><a href="https://github.com/ibmdb/python-ibmdb/wiki/APIs" target="_blank"><b>IBM DB2 Functions</b></a>: The list of IBM DB2 API Functions with sample examples.</li>
-  <li><a href="https://www.ibm.com/docs/en/dscp/10.1.0?topic=db-fetching-rows-columns-from-result-sets" target="_blank"> <b>IBM DB2 Fetching</b></a>: This list of fetching types and what it does</li>
+  <li><a href="https://github.com/ibmdb/python-ibmdb" target="_blank"><strong>Official GitHub Repo of IBM DB2</strong></a>: The official GitHub Repository of IBM DB2, where you can find a few examples and installation instructions.</li>
+  <li><a href="https://github.com/ibmdb/python-ibmdb/wiki/APIs" target="_blank"><strong>IBM DB2 Functions</strong></a>: The list of IBM DB2 API Functions with sample examples.</li>
+  <li><a href="https://www.ibm.com/docs/en/dscp/10.1.0?topic=db-fetching-rows-columns-from-result-sets" target="_blank"> <strong>IBM DB2 Fetching</strong></a>: This is a list of fetching types and what they do.</li>
 </ul>
 
+<h2>Docker and WSL</h2>
 <ul>
   <li>
     Docker Desktop Download:
@@ -35,4 +36,3 @@
   <li><a href="https://docs.docker.com/">Docker Documentation</a></li>
   <li><a href="https://docs.docker.com/engine/reference/commandline/cli/">Docker CLI Command Reference</a> - Comprehensive documentation on Docker's command-line interface (CLI), providing details and examples of various Docker commands.</li>
 </ul>
-
